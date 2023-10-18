@@ -22,6 +22,7 @@ To get started with a project:
 
    ```bash
    git clone https://github.com/yildizmehmetcihan/computer-vision.git
+   ```
 
 2. Navigate to the project directory you are interested in.
 
@@ -34,18 +35,18 @@ Fork this repository.
 
 Create a new branch.
 
-bash
-Copy code
-git checkout -b new-project
+  ```bash
+  git checkout -b new-project
+  ```
 Add your project to the "Projects" directory.
 
 Update the README.md file in your project directory with project details.
 
 Push your changes to your fork.
 
-bash
-Copy code
+```bash
 git push origin new-project
+```
 Open a pull request to the main repository.
 
 ##Project Ideas
