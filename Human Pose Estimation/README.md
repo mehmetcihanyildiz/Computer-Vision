@@ -1,3 +1,5 @@
+![Screenshot](kata_pose_estimation.png)
+
 # Pose Detection Program Documentation
 
 ## Overview
@@ -17,6 +19,3 @@ This program performs pose detection using the OpenPose model and OpenCV. It cap
 
 ### Displaying Results:
 5. Display the main frame with the pose estimation and a secondary frame for detailed pose points.
-
-![Screenshot](kata_pose_estimation.png)
-  
