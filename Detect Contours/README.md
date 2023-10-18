@@ -1,6 +1,6 @@
 ![Screenshot](happy-pup.png)
 
-# Contour Detection Program Documentation
+# Contour Detection Documentation
 
 ## Overview
 
