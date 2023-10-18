@@ -1,3 +1,5 @@
+![Screenshot](happy-pup.png)
+
 Contour Detection Program Documentation
 Overview
 This program is designed to detect and visualize contours in an image using the OpenCV library. Contours are essentially the boundaries of objects in an image. The program performs the following key steps:
@@ -42,5 +44,3 @@ The min_contour_area threshold is used to filter out small contours. Adjust this
 The epsilon value in the contour approximation step can be adjusted to control the level of simplification.
 Conclusion
 This program is a basic template for contour detection in images. Feel free to experiment with the parameters and adjustments to achieve optimal results for your specific use case.
-
-![Screenshot](happy-pup.png)
