@@ -1,10 +1,10 @@
 ![Screenshot](happy-pup.png)
 
-Contour Detection Program Documentation
-Overview
+#Contour Detection Program Documentation
+##Overview
 This program is designed to detect and visualize contours in an image using the OpenCV library. Contours are essentially the boundaries of objects in an image. The program performs the following key steps:
 
-Preprocessing:
+##Preprocessing:
 
 Reads an image from a specified file path.
 Converts the image to grayscale to simplify further processing.
@@ -12,26 +12,26 @@ Applies GaussianBlur to reduce noise in the image.
 Edge Detection:
 
 Applies Canny edge detection to identify significant changes in intensity and locate potential edges.
-Morphological Operations:
+##Morphological Operations:
 
 Uses dilation and erosion to enhance the contours, making them more prominent and connected.
 Contour Finding:
 
 Applies the cv2.findContours function to identify contours in the processed image.
 Filters out small contours based on a specified minimum area threshold.
-Contour Approximation:
+##Contour Approximation:
 
 Uses cv2.approxPolyDP to approximate each contour with a simpler polygon. This step helps in reducing the complexity of the contours.
-Drawing Contours:
+##Drawing Contours:
 
 Draws the identified contours on the original image using the cv2.drawContours function.
-Displaying Results:
+##Displaying Results:
 
 Displays the original image, Canny edges, and the image with drawn contours for visual inspection.
-Output:
+###Output:
 
 Prints the number of contours found in the image.
-Usage
+##Usage
 To use the program, simply call the find_and_draw_contours function with the file path of the image you want to process. For example:
 
 python
