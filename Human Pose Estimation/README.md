@@ -1,6 +1,6 @@
 ![Screenshot](kata_pose_estimation.png)
 
-# Pose Detection Program Documentation
+# Pose Estimation
 
 ## Overview
 This program performs pose detection using the OpenPose model and OpenCV. It captures video from a specified source, either a file or a camera, and overlays the estimated pose on the frames. The key steps of the program include:
