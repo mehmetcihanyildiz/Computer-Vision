@@ -1,3 +1,5 @@
+![Screenshot](happy-pup.png)
+
 # Contour Detection Program Documentation
 
 ## Overview
@@ -55,5 +57,3 @@ find_and_draw_contours('happy-pup-1.png')
 
 ##Conclusion
 This program is a basic template for contour detection in images. Feel free to experiment with the parameters and adjustments to achieve optimal results for your specific use case.
-
-![Screenshot](happy-pup.png)
